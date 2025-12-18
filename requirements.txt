@@ -1,0 +1,41 @@
+# Core Telegram Bot
+pyrogram>=2.0.0
+tgcrypto>=1.2.0
+
+# HTTP y API
+aiohttp>=3.8.0
+
+# GitHub API y gestión
+PyGithub>=1.55  # Para gestión avanzada de GitHub
+python-gitlab>=3.0.0  # Opcional, para GitLab también
+
+# Sistema y utilidades
+psutil>=5.9.0
+humanize>=4.6.0
+
+# Archivos y compresión
+python-magic>=0.4.27  # Detección de tipo de archivo
+python-magic-bin>=0.4.14  # Para Windows
+
+# Seguridad y codificación
+cryptography>=41.0.0
+pycryptodome>=3.18.0
+
+# Logging y debugging
+colorlog>=6.7.0
+
+# Fechas y tiempos
+python-dateutil>=2.8.0
+pytz>=2023.0
+
+# Otros utilitarios
+requests>=2.31.0  # Fallback para HTTP
+beautifulsoup4>=4.12.0  # Para parsing HTML si es necesario
+lxml>=4.9.0  # Parser rápido para HTML/XML
+
+# Async utilities
+asyncio-throttle>=1.0.0  # Para limitar rate de requests
+aiofiles>=23.0.0  # Para operaciones async con archivos
+
+# Development (opcional)
+python-dotenv>=1.0.0  # Para manejar variables de entorno desde .env
